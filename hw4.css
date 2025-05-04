@@ -1,0 +1,175 @@
+/*
+    Name: Le Nguyen Thai
+    Date created: 02/07/2025
+    Date last edited: 05/02/2025
+    Version: 4.0
+    Description: Homework 4 CSS
+*/
+
+header {
+    width: 100%;
+    background: linear-gradient(135deg, #0d1b40, #0a2a6c, #114b94);
+    color: white;
+    font-family: sans-serif;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: wheat;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /* page is height of the viewport */
+    }
+
+form {
+    flex-grow: 1;
+    }
+
+h1, h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    }
+
+main {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    flex-grow: 1;
+    }
+
+.image {
+    text-align: left;
+    }
+    
+.td1 {
+    text-align: right;
+    font-family:sans-serif;
+    font-weight: normal;
+    }
+
+th {
+    text-align: center;
+    font-family: Choose a font;
+    }
+
+footer {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    height: 2.0rem;
+    }
+
+#footer {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-right: 10px;
+    }
+
+label {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: normal;
+    }
+
+input {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    }
+
+textarea {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    }
+
+#today {
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-right: 5px;
+    }
+
+p {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: normal;
+    }
+
+.error {
+    color: red;
+    font-size: 10;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.pword-message {
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 100px;
+    background: transparent;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: green;
+}
+
+#review {
+    margin-top: 5px;
+}
+
+table.output,
+tr.output,
+td.output {
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+}
+
+#welcome1 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#welcome2 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.iframe-container {
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.iframe-container iframe {
+    width: 95%;
+    height: 25%;
+    border: 1px solid black;
+}
